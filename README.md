@@ -49,4 +49,14 @@ This project is worth doing because it targets a real frustration in the job app
 
 If you use this project, please cite:
 
-Zhang, Mike, Kristian Nørgaard Jensen, Sif Sonniks, and Barbara Plank. "SkillSpan: Hard and Soft Skill Extraction from English Job Postings." Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2022. [https://aclanthology.org/2022.naacl-main.366](https://aclanthology.org/2022.naacl-main.366)
+Zhang, Mike, Kristian Nørgaard Jensen, Sif Sonniks, and Barbara Plank.
+*SkillSpan: Hard and Soft Skill Extraction from English Job Postings.*
+Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2022.
+[https://aclanthology.org/2022.naacl-main.366](https://aclanthology.org/2022.naacl-main.366)
+
+
+van der Goot, Rob, Üstün, Ahmet, Ramponi, Alan, Sharaf, Ibrahim, and Plank, Barbara.  
+*Massive Choice, Ample Tasks (MaChAmp): A Toolkit for Multi-task Learning in NLP.*  
+Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations, 2021.  
+[https://aclanthology.org/2021.eacl-demos.22](https://aclanthology.org/2021.eacl-demos.22)
+
