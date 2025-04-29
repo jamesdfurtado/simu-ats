@@ -2,26 +2,21 @@ import os
 import re
 import nltk
 from nltk.stem import WordNetLemmatizer
-
-# Download required resources if not already present
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
 lemmatizer = WordNetLemmatizer()
 
-# Load and normalize the hard skills list
 skills_path = os.path.join(os.path.dirname(__file__), '../text/hard_skills.txt')
 with open(skills_path, 'r', encoding='utf-8') as file:
     raw_skills = [line.strip().lower() for line in file if line.strip()]
 
-# Normalize the hard skills list
 normalized_skills = set()
 for skill in raw_skills:
-    skill_cleaned = re.sub(r'[^a-z0-9\s\+\#\.\-]', '', skill)  # Keep +, #, . for C++, Node.js, etc.
+    skill_cleaned = re.sub(r'[^a-z0-9\s\+\#\.\-]', '', skill)
     skill_normalized = ' '.join([lemmatizer.lemmatize(word) for word in skill_cleaned.split()])
     normalized_skills.add(skill_normalized)
 
-# Special collision rules (optional, for edge cases like JS/ES6)
 skill_collision_rules = {
     "es6": {"javascript", "js"}
 }
@@ -44,7 +39,6 @@ def extract_skills_from_text(text):
             if any(strong in extracted for strong in strong_skills):
                 extracted.discard(weak_skill)
 
-    # Handle "go" disambiguation
     go_phrases = {
         "in go", "with go", "using go",
         "go language", "go development", "go code", "go programming", "go engineer",
@@ -54,6 +48,12 @@ def extract_skills_from_text(text):
 
     if any(phrase in lemmatized_text for phrase in go_phrases):
         extracted -= go_phrases
-        extracted.add("golang")
+        extracted.add("go")
+
+    if "cs" in extracted and "css" not in extracted:
+        extracted.remove("cs")
+        extracted.add("css")
 
     return sorted(extracted)
+
+# This is before skill importance is ranked
