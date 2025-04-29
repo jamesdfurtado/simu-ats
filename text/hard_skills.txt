@@ -250,6 +250,7 @@ glue
 dataproc
 bigquery
 datastore
+rest
 firebase
 firebase firestore
 firebase realtime database
@@ -1066,6 +1067,7 @@ assert.js
 expect.js
 supertest
 rest assured
+restful
 karate dsl
 pact contract testing
 mutation testing
@@ -1111,7 +1113,6 @@ agile methodology
 scrum methodology
 kanban
 scrum master
-product owner
 agile ceremonies
 sprint planning
 sprint retrospectives
