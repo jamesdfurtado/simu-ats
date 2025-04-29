@@ -25,7 +25,16 @@ def extract_skills_from_text(text):
     text = text.lower()
     text = re.sub(r'[^a-z0-9\s\+\#\.\-]', ' ', text)
     words = text.split()
-    lemmatized_text = ' '.join([lemmatizer.lemmatize(word) for word in words])
+
+    # Skip lemmatizing words with +, #, or . inside
+    lemmatized_words = []
+    for word in words:
+        if '+' in word or '#' in word or '.' in word:
+            lemmatized_words.append(word)
+        else:
+            lemmatized_words.append(lemmatizer.lemmatize(word))
+
+    lemmatized_text = ' '.join(lemmatized_words)
 
     extracted = set()
     for skill in normalized_skills:
@@ -38,6 +47,7 @@ def extract_skills_from_text(text):
             if any(strong in extracted for strong in strong_skills):
                 extracted.discard(weak_skill)
 
+    # Special handling for Go language detection
     go_phrases = {
         "in go", "with go", "using go",
         "go language", "go development", "go code", "go programming", "go engineer",
@@ -49,9 +59,17 @@ def extract_skills_from_text(text):
         extracted -= go_phrases
         extracted.add("go")
 
+    # Fix "cs" confusion if not meant to be css
     if "cs" in extracted and "css" not in extracted:
         extracted.remove("cs")
         extracted.add("css")
+    
+    if "panda" in extracted:
+        extracted.remove("panda")
+        extracted.add("pandas")
+
+    if "c" in extracted and "c++" in extracted:
+        extracted.remove("c")
 
     return sorted(extracted)
 

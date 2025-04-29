@@ -282,8 +282,6 @@ postgres
 sqlite
 mariadb
 oracle
-microsoft sql server
-sql server
 db2
 ibm db2
 teradata
@@ -734,7 +732,6 @@ session management
 cookies
 localstorage
 indexeddb
-web sql
 service workers
 webassembly
 wasm
@@ -1109,13 +1106,8 @@ rolling updates
 feature flags
 launchdarkly
 split.io
-agile methodology
-scrum methodology
 kanban
-scrum master
-agile ceremonies
-sprint planning
-sprint retrospectives
+sprint
 daily standup
 backlog grooming
 story points
@@ -1131,8 +1123,6 @@ crystal methodology
 feature driven development
 lean software development
 safe framework
-scaled agile framework
-disciplined agile delivery
 iso 9001
 cmmidev
 cmmi
@@ -1233,7 +1223,6 @@ ccsp
 certified cloud security professional
 pmp
 project management professional
-certified scrum master
 csm
 safe agilist
 sa
@@ -1444,12 +1433,6 @@ oop
 back-end
 backend
 web development
-software development
-software engineer
-software developer
-software engineering
-programming
-computer science
 frontend
 cloud
 salesforce
@@ -1513,3 +1496,10 @@ scalability optimization
 sequence modeling
 speech recognition
 supervised learning
+visual studio
+agile
+scrum
+machine learning
+entity framework
+mvc
+mobile apps
