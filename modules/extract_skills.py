@@ -23,7 +23,7 @@ skill_collision_rules = {
 
 def extract_skills_from_text(text):
     text = text.lower()
-    text = re.sub(r'[^a-z0-9\s\+\#\.\-]', ' ', text)  # Keep +, #, . for tech names
+    text = re.sub(r'[^a-z0-9\s\+\#\.\-]', ' ', text)
     words = text.split()
     lemmatized_text = ' '.join([lemmatizer.lemmatize(word) for word in words])
 
@@ -33,7 +33,6 @@ def extract_skills_from_text(text):
         if re.search(pattern, lemmatized_text):
             extracted.add(skill)
 
-    # Apply collision rules (e.g., remove 'es6' if 'javascript' or 'js' is found)
     for weak_skill, strong_skills in skill_collision_rules.items():
         if weak_skill in extracted:
             if any(strong in extracted for strong in strong_skills):
