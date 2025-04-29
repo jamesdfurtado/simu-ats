@@ -1,0 +1,1488 @@
+python
+java
+javascript
+typescript
+c
+c++
+cpp
+c#
+objective-c
+swift
+kotlin
+rust
+ruby
+php
+perl
+scala
+r
+dart
+matlab
+vhdl
+verilog
+bash
+powershell
+groovy
+lua
+haskell
+julia
+assembly
+sql
+pl/sql
+t-sql
+f#
+clojure
+elixir
+shell scripting
+html
+css
+sass
+json
+yaml
+xml
+protobuf
+graphql
+smalltalk
+fortran
+cobol
+ada
+abap
+actionscript
+visual basic
+vb.net
+apex
+postscript
+lisp
+scheme
+erlang
+opencl
+cuda
+labview
+awk
+pascal
+delphi
+nim
+ocaml
+react
+react.js
+reactjs
+next.js
+nextjs
+vue
+vue.js
+vuejs
+angular
+angular.js
+angularjs
+svelte
+sveltekit
+ember
+ember.js
+emberjs
+jquery
+backbone
+backbone.js
+backbonejs
+express
+express.js
+expressjs
+django
+flask
+fastapi
+spring
+spring boot
+spring mvc
+spring security
+hibernate
+struts
+jsf
+nestjs
+nuxt.js
+nuxtjs
+electron
+cordova
+capacitor
+ionic
+expo
+gatsby
+astro
+blazor
+rails
+ruby on rails
+laravel
+symfony
+cakephp
+zend framework
+phoenix framework
+adonisjs
+dotnet
+dotnet core
+asp.net
+asp.net mvc
+asp.net core
+redux
+redux toolkit
+mobx
+recoil
+pytorch
+tensorflow
+keras
+sklearn
+scikit-learn
+mxnet
+huggingface
+transformers
+opencv
+xgboost
+lightgbm
+catboost
+nltk
+spacy
+d3.js
+d3js
+chart.js
+chartjs
+three.js
+threejs
+babylon.js
+babylonjs
+tailwind
+tailwindcss
+bootstrap
+bootstrap 4
+bootstrap 5
+material-ui
+mui
+chakra ui
+ant design
+ant-design
+mantine
+headless ui
+primefaces
+primevue
+vuetify
+quasar
+foundation framework
+bulma
+carbon design system
+metro 4
+uikit
+inferno
+preact
+lit
+stenciljs
+aws
+amazon web services
+azure
+microsoft azure
+gcp
+google cloud platform
+digitalocean
+linode
+heroku
+cloudflare
+vercel
+netlify
+docker
+docker-compose
+kubernetes
+k8s
+helm
+terraform
+ansible
+chef
+puppet
+packer
+vault
+consul
+jenkins
+circleci
+travis ci
+gitlab ci
+github actions
+argo
+argo cd
+spinnaker
+nomad
+prometheus
+grafana
+datadog
+new relic
+zabbix
+elk stack
+elastic stack
+elasticsearch
+logstash
+kibana
+filebeat
+metricbeat
+jaeger
+opentelemetry
+splunk
+aws cloudformation
+cloudwatch
+aws lambda
+serverless framework
+aws fargate
+eks
+aks
+gke
+app engine
+cloud run
+s3
+aws s3
+ec2
+aws ec2
+rds
+aws rds
+cloudfront
+route53
+iam
+aws iam
+vpc
+alb
+nlb
+sns
+sqs
+eventbridge
+cloudtrail
+athena
+glue
+dataproc
+bigquery
+datastore
+firebase
+firebase firestore
+firebase realtime database
+firebase hosting
+firebase cloud functions
+openstack
+red hat openshift
+vsphere
+vmware
+k3s
+minikube
+docker swarm
+nexus repository
+artifactory
+hashicorp vault
+azure devops
+azure pipelines
+azure functions
+azure app service
+aws elastic beanstalk
+kong
+traefik
+istio
+linkerd
+mysql
+postgresql
+postgressql
+postgres
+sqlite
+mariadb
+oracle
+microsoft sql server
+sql server
+db2
+ibm db2
+teradata
+redshift
+amazon redshift
+aurora
+aws aurora
+snowflake
+bigquery
+google bigquery
+dynamodb
+aws dynamodb
+cassandra
+scylladb
+mongodb
+atlas mongodb
+couchdb
+couchbase
+neo4j
+arangodb
+redis
+elasticsearch
+influxdb
+timescaledb
+clickhouse
+hbase
+accumulo
+memcached
+hazelcast
+etcd
+rocksdb
+leveldb
+firebase firestore
+firebase realtime database
+realm database
+supabase
+planetscale
+vitess
+tidb
+faunadb
+rqlite
+tigrisdb
+cosmos db
+azure cosmos db
+datastore
+cloud spanner
+yugabyte
+foundationdb
+oracle autonomous database
+graphql databases
+graphql engine
+dgraph
+gremlin
+janusgraph
+orientdb
+ravendb
+riak
+riak kv
+zookeeper
+hdfs
+hadoop hdfs
+hive
+pig
+prestodb
+trino
+apache drill
+amazon timestream
+owasp
+owasp top 10
+penetration testing
+pentesting
+ethical hacking
+ceh
+certified ethical hacker
+cissp
+certified information systems security professional
+comp tia security+
+security+
+cybersecurity
+cyber security
+information security
+infosec
+application security
+appsec
+network security
+cloud security
+cloud security alliance
+zero trust
+mfa
+multi factor authentication
+two factor authentication
+2fa
+iam
+identity and access management
+firewalls
+waf
+web application firewall
+ids
+ips
+intrusion detection systems
+intrusion prevention systems
+siem
+security information and event management
+splunk security
+kali linux
+parrot os
+burp suite
+nessus
+nmap
+wireshark
+metasploit
+aircrack-ng
+hydra
+snort
+openvas
+ossec
+tripwire
+hashcat
+john the ripper
+social engineering
+reverse engineering
+threat modeling
+risk assessment
+security auditing
+vulnerability management
+cve analysis
+mitre attack framework
+purple teaming
+red teaming
+blue teaming
+threat hunting
+endpoint detection and response
+edr
+xdr
+microsoft defender
+crowdstrike
+sentinelone
+palo alto networks
+fortinet
+checkpoint security
+mcafee
+trend micro
+carbon black
+snyk
+veracode
+sonarqube
+blackduck
+software composition analysis
+container security
+docker security
+kubernetes security
+security operations center
+soc analyst
+siem tools
+splunk enterprise security
+arc sight
+alienvault
+logrhythm
+gdpr
+hipaa
+pci dss
+iso 27001
+nist framework
+sox compliance
+tls
+es6
+ssl
+vpn
+ssh
+ipsec
+dns security
+dnssec
+endpoint security
+malware analysis
+incident response
+dfir
+forensics
+cyber threat intelligence
+bug bounty
+hackerone
+bugcrowd
+owasp zap
+machine learning
+deep learning
+artificial intelligence
+computer vision
+natural language processing
+reinforcement learning
+unsupervised learning
+supervised learning
+semi supervised learning
+self supervised learning
+transfer learning
+few shot learning
+zero shot learning
+prompt engineering
+fine tuning
+large language models
+llm
+api
+gpt
+openai api
+langchain
+haystack
+llamaindex
+rag
+retrieval augmented generation
+huggingface
+transformers
+pytorch
+torch
+tensorflow
+keras
+jax
+flax
+sklearn
+scikit learn
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+plotly
+bokeh
+altair
+statsmodels
+lightgbm
+xgboost
+catboost
+onnx
+tensorflow serving
+torchserve
+mlflow
+wandb
+weights and biases
+dvc
+data version control
+airflow
+kedro
+luigi
+prefect
+kubeflow
+vertex ai
+sage maker
+amazon sagemaker
+azure machine learning
+google ai platform
+huggingface datasets
+huggingface tokenizers
+sentence transformers
+openclip
+clip
+diffusers
+stable diffusion
+dreambooth
+controlnet
+deepstream
+nvidia triton
+tensorrt
+opencv
+albumentations
+label studio
+prodigy annotation tool
+aws comprehend
+gcp vertex ai
+azure cognitive services
+bert
+gpt-2
+gpt-3
+gpt-4
+chatgpt
+llama
+llama 2
+mistral
+mixtral
+phi 2
+gemma
+gemini
+openrouter
+falcon llm
+vicuna llm
+databricks
+delta lake
+apache spark ml
+apache flink
+apache beam
+feature engineering
+feature stores
+feast
+vector databases
+pinecone
+weaviate
+chromadb
+faiss
+milvus
+qdrant
+ann indexing
+embedding models
+sentence bert
+openai embeddings
+text2vec
+image recognition
+object detection
+yolo
+yolov5
+yolov8
+ssd mobilenet
+rcnn
+faster rcnn
+vit
+vision transformers
+sam
+segment anything model
+tabular data
+time series analysis
+arima
+lstm
+gru
+transformer models
+graph neural networks
+gnn
+deep reinforcement learning
+alphago
+dqn
+ppo
+a3c
+ddpg
+android
+android studio
+android sdk
+kotlin
+java android
+jetpack compose
+xml layouts
+gradle
+dagger
+hilt
+retrofit
+okhttp
+glide
+picasso
+room database
+firebase android
+ios
+swift
+swiftui
+objective-c
+xcode
+storyboards
+core data
+cloudkit
+combine framework
+alamofire
+kingfisher
+snapkit
+carthage
+cocoapods
+fastlane
+flutter
+dart
+flutterflow
+rive
+html
+html5
+css
+css3
+sass
+scss
+javascript
+typescript
+react
+vue
+angular
+svelte
+next.js
+nuxt.js
+astro
+gatsby
+11ty
+vite
+webpack
+parcel
+rollup
+gulp
+grunt
+babel
+eslint
+prettier
+postcss
+tailwindcss
+bootstrap
+material ui
+chakra ui
+ant design
+primefaces
+vuetify
+uikit
+foundation css
+bulma
+jquery
+ajax
+dom manipulation
+shadow dom
+web components
+custom elements
+service workers
+progressive web apps
+pwa
+responsive design
+mobile first design
+cross browser compatibility
+accessibility
+a11y
+aria attributes
+seo
+structured data
+rich snippets
+server side rendering
+ssr
+static site generation
+ssg
+client side rendering
+csr
+hydration
+incremental static regeneration
+isr
+headless cms
+contentful
+sanity.io
+strapi
+ghost cms
+netlify cms
+wordpress headless
+graphql
+apollo client
+urql
+rest api
+openapi
+swagger
+grpc
+websockets
+socket.io
+stomp
+graphql subscriptions
+authentication
+oauth
+openid connect
+jwt
+session management
+cookies
+localstorage
+indexeddb
+web sql
+service workers
+webassembly
+wasm
+blazor webassembly
+payment integration
+stripe
+paypal sdk
+braintree
+square sdk
+internationalization
+i18n
+l10n
+date-fns
+moment.js
+luxon
+formik
+react hook form
+react native
+mobile development
+yup validation
+zod validation
+zustand
+redux
+redux toolkit
+context api
+recoil
+mobx
+vuex
+pinia
+svelte stores
+rxjs
+observer pattern
+pub sub pattern
+micro frontends
+module federation
+monorepo management
+nx
+turborepo
+vitepress
+docusaurus
+storybook
+component driven development
+chromatic
+jest
+testing library
+cypress
+playwright
+puppeteer
+mocha
+chai
+enzyme
+sinon
+axe-core accessibility testing
+lighthouse audits
+pagespeed insights
+gtmetrix
+render.com
+vercel
+netlify
+surge.sh
+aws amplify
+cloudflare pages
+s3 static hosting
+cdn optimization
+edge functions
+edge computing
+function as a service
+faas
+serverless architectures
+bff pattern
+backend for frontend
+api gateway
+reverse proxy
+nginx
+apache http server
+caddy server
+haproxy
+rate limiting
+caching strategies
+redis caching
+varnish cache
+cloudflare workers
+lambda@edge
+content delivery networks
+cdn
+akamai
+fastly
+cloudfront
+dns configuration
+domain management
+ssl tls certificates
+letsencrypt
+certbot
+acme challenge
+hsts
+cors
+content security policy
+csp headers
+sri
+subresource integrity
+webhooks
+zapier integrations
+inbound webhooks
+outbound webhooks
+microservices architecture
+rest microservices
+graphql federation
+api composition
+graphql stitching
+backend as a service
+baas
+supabase
+firebase backend
+hasura graphql engine
+planetscale database
+embedded systems
+embedded software
+firmware development
+microcontrollers
+microprocessors
+real time operating systems
+rtos
+bare metal programming
+interrupt service routines
+isr
+i2c
+spi
+uart
+can bus
+ethernet
+modbus
+rs232
+rs485
+gpio
+adc
+dac
+pwm
+i2s
+embedded c
+embedded c++
+assembly language
+arm cortex m
+arm cortex a
+arm mbed os
+freertos
+zephyr rtos
+threadx
+micrium
+vxworks
+qnx
+yocto project
+buildroot
+openwrt
+embedded linux
+uclinux
+raspberry pi
+arduino
+esp32
+esp8266
+nrf52
+stm32
+pic microcontrollers
+atmel microcontrollers
+avr
+ti msp430
+beaglebone
+nvidia jetson
+intel edison
+arduino ide
+platformio
+keil uvision
+iar embedded workbench
+segger embedded studio
+openocd
+jtag
+stlink
+cmsis
+hal drivers
+cmsis drivers
+low level drivers
+sensor integration
+imu sensors
+accelerometers
+gyroscopes
+magnetometers
+barometers
+gps modules
+bluetooth low energy
+ble
+zigbee
+zwave
+lorawan
+nfc
+rfid
+mqtt
+coap
+6lowpan
+iot security
+device provisioning
+over the air updates
+ota updates
+edge computing
+fog computing
+iot edge
+aws iot core
+azure iot hub
+google cloud iot
+firebase iot
+mqtt brokers
+hivemq
+emqx
+mosquitto
+robot operating system
+ros
+ros2
+gazebo simulator
+rviz
+moveit
+openai gym robotics
+urdf modeling
+slam algorithms
+gmapping
+cartographer
+navigation stack
+path planning algorithms
+pid control
+kalman filter
+extended kalman filter
+sensor fusion
+robot perception
+actuators
+motor controllers
+pwm motor control
+brushless motor control
+stepper motor control
+servo motors
+kinematics
+inverse kinematics
+robot arm control
+mobile robot localization
+visual odometry
+camera calibration
+stereo vision
+depth estimation
+lidar integration
+ultrasonic sensors
+infrared sensors
+robot control architectures
+rosbag recording
+robot simulation
+unit testing
+integration testing
+functional testing
+end to end testing
+e2e testing
+ui testing
+snapshot testing
+api testing
+performance testing
+load testing
+stress testing
+soak testing
+chaos testing
+resiliency testing
+security testing
+static code analysis
+dynamic code analysis
+regression testing
+smoke testing
+sanity testing
+user acceptance testing
+uat
+test driven development
+tdd
+behavior driven development
+bdd
+acceptance test driven development
+atdd
+exploratory testing
+mutation testing
+visual testing
+accessibility testing
+a11y testing
+jest
+mocha
+chai
+jasmine
+ava
+karma
+cypress
+playwright
+puppeteer
+selenium
+webdriverio
+appium
+robot framework
+postman
+newman
+k6 testing
+locust load testing
+artillery.io
+lighthouse performance audits
+axe accessibility tests
+sonarqube
+codacy
+coveralls
+codecov
+mockito
+mock service worker
+msw
+nock
+pytest
+unittest
+nosql
+relational database
+relational databases
+nose2
+doctest
+catch2
+boost.test
+cgreen
+criterion testing framework
+testng
+junit
+jest dom
+testing library
+enzyme
+sinon.js
+assert.js
+expect.js
+supertest
+rest assured
+karate dsl
+pact contract testing
+mutation testing
+stryker
+gremlins.js
+testcontainers
+containerized testing
+continuous integration
+ci/cd
+continuous deployment
+continuous delivery
+ci cd pipelines
+github actions
+gitlab ci
+git
+linuxs
+node.js
+bitbucket pipelines
+circleci
+travis ci
+jenkins
+teamcity
+azure pipelines
+aws codepipeline
+argo workflows
+spinnaker
+buildkite
+semaphore ci
+buddy ci
+sonarcloud
+git hooks
+pre commit hooks
+monorepo ci cd
+multi repo ci cd
+deployment pipelines
+canary deployments
+blue green deployments
+rolling updates
+feature flags
+launchdarkly
+split.io
+agile methodology
+scrum methodology
+kanban
+scrum master
+product owner
+agile ceremonies
+sprint planning
+sprint retrospectives
+daily standup
+backlog grooming
+story points
+user stories
+epics
+release planning
+waterfall model
+v model
+spiral model
+extreme programming
+xp
+crystal methodology
+feature driven development
+lean software development
+safe framework
+scaled agile framework
+disciplined agile delivery
+iso 9001
+cmmidev
+cmmi
+devsecops
+site reliability engineering
+sre
+incident management
+postmortem analysis
+blameless culture
+software lifecycle management
+requirements engineering
+architecture design
+uml
+sequence diagrams
+class diagrams
+activity diagrams
+erd diagrams
+database schema design
+api design
+openapi specs
+swagger documentation
+mock servers
+spec first development
+contract testing
+design patterns
+creational patterns
+structural patterns
+behavioral patterns
+mvc pattern
+mvvm pattern
+mvp pattern
+observer pattern
+factory pattern
+singleton pattern
+builder pattern
+repository pattern
+command pattern
+adapter pattern
+decorator pattern
+strategy pattern
+template method pattern
+bridge pattern
+proxy pattern
+domain driven design
+ddd
+event driven architecture
+eda
+cqrs
+command query responsibility segregation
+saga pattern
+event sourcing
+hexagonal architecture
+ports and adapters architecture
+layered architecture
+clean architecture
+microservices architecture
+serverless architecture
+monolith architecture
+modular monolith
+cloud native architecture
+twelve factor app
+api gateway pattern
+backend for frontend pattern
+anti corruption layer
+distributed systems
+distributed transactions
+eventual consistency
+strong consistency
+idempotency
+api versioning
+service versioning
+continuous refactoring
+technical debt management
+legacy system modernization
+strangler fig pattern
+brownfield development
+greenfield development
+aws certified solutions architect associate
+aws certified developer associate
+aws certified sysops administrator associate
+aws certified devops engineer professional
+aws certified machine learning specialty
+aws certified security specialty
+azure fundamentals
+azure administrator associate
+azure solutions architect expert
+google associate cloud engineer
+google professional cloud architect
+google professional data engineer
+comp tia security plus
+comptia network plus
+comptia cloud plus
+ceh
+certified ethical hacker
+cissp
+certified information systems security professional
+ccsp
+certified cloud security professional
+pmp
+project management professional
+certified scrum master
+csm
+safe agilist
+sa
+six sigma green belt
+six sigma black belt
+docker certified associate
+kubernetes certified administrator
+cka
+kubernetes certified application developer
+ckad
+kubernetes security specialist
+cks
+red hat certified engineer
+rhce
+red hat certified system administrator
+rhsa
+oracle certified professional
+ocp
+salesforce certified platform developer
+salesforce admin certification
+istqb certified tester
+jira
+confluence
+asana
+trello
+monday.com
+slack
+microsoft teams
+google workspace
+g suite
+notion
+airtable
+miro
+lucidchart
+draw.io
+figma
+adobe xd
+invision
+balsamiq
+power bi
+tableau
+looker
+superset
+grafana dashboards
+metabase
+mixpanel
+amplitude analytics
+datadog monitoring
+new relic monitoring
+pagerduty
+opsgenie
+statuspage
+sentry error tracking
+bugsnag
+rollbar
+prometheus monitoring
+alertmanager
+grafana tempo
+open telemetry
+jaeger tracing
+zipkin tracing
+opentelemetry tracing
+tracing and observability
+feature flagging
+continuous delivery
+infrastructure as code
+infrastructure-as-code
+infrastructure automation
+configuration management
+cloud automation
+self healing systems
+disaster recovery
+multi cloud architectures
+hybrid cloud architectures
+edge cloud
+distributed cloud
+serverless computing
+faas
+containers as a service
+caas
+observability
+metrics logging tracing
+time series databases
+real time data processing
+streaming analytics
+apache kafka
+apache pulsar
+amazon kinesis
+confluent cloud
+data ingestion
+data pipelines
+etl pipelines
+elt pipelines
+data lakes
+data warehouses
+lakehouse architecture
+data governance
+data lineage
+data cataloging
+mlops
+model deployment
+model monitoring
+drift detection
+retraining pipelines
+feature stores
+vector search
+hybrid search
+semantic search
+knowledge graphs
+knowledge retrieval
+retrieval augmented generation
+rag pipelines
+prompt optimization
+prompt engineering
+llm fine tuning
+quantization
+model distillation
+model pruning
+accelerated inference
+hardware acceleration
+gpu optimization
+tpu optimization
+cpu optimization
+batch inferencing
+real time inferencing
+distributed model training
+multi gpu training
+distributed data processing
+autoscaling
+high availability
+load balancing
+reverse proxies
+api gateways
+authentication protocols
+authorization protocols
+oauth2
+openid connect
+saml authentication
+sso single sign on
+enterprise integration
+integration patterns
+api rate limiting
+api throttling
+service mesh
+envoy proxy
+istio service mesh
+linkerd service mesh
+zero trust security
+identity aware proxy
+policy as code
+opa open policy agent
+security scanning
+dependency scanning
+software bill of materials
+sbom
+vulnerability scanning
+compliance as code
+devops automation
+chatops
+gitops
+finops
+platform engineering
+developer experience
+internal developer portals
+backstage.io
+open source contribution
+inner sourcing
+software craftsmanship
+clean code
+solid principles
+kubernetes operators
+custom resource definitions
+crds
+dynamic admission controllers
+static admission controllers
+policy enforcement
+cost optimization
+green computing
+sustainability in cloud computing
+carbon footprint reduction
+edge ai
+federated learning
+differential privacy
+privacy preserving machine learning
+secure multiparty computation
+zero knowledge proofs
+homomorphic encryption
+cryptography
+symmetric encryption
+asymmetric encryption
+blockchain development
+smart contracts
+ethereum development
+solidity programming
+hyperledger fabric
+cosmos sdk
+substrate blockchain
+web3 development
+wallet integration
+nft development
+decentralized finance
+defi
+ipfs
+filecoin
+arweave
+the graph protocol
+object oriented programming
+oop
+back-end
+backend
+web development
+software development
+software engineer
+software developer
+software engineering
+programming
+computer science
+frontend
+cloud
+salesforce
+database
+sdk
+ux
+golang
+webrtc
+lte
+5g
+vm
+virtual machine
+databases
+google cloud
+apis
+data acquisition
+mathematics
+
+in go
+with go
+using go
+go language
+go development
+go code
+go programming
+go engineer
+go developer
+go stack
+go microservices
+go backend
+go application
+go based
+go tools
+go runtime

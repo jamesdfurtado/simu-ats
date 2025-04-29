@@ -1,22 +1,9 @@
 import streamlit as st
-from modules.job_parser import clean_and_chunk_text
-from modules.ats import extract_skills_from_chunks
-import os
+from modules.extract_skills import extract_skills_from_text
 
 st.set_page_config(page_title="SimuATS", layout="wide")
 
-# === TESTING ONLY: Auto-load job.txt if available ===
-TEST_MODE = True  # Set to False when ready for deployment
-
-default_text = ""
-if TEST_MODE:
-    try:
-        with open("job.txt", "r", encoding="utf-8") as f:
-            default_text = f.read()
-    except FileNotFoundError:
-        st.warning("job.txt not found. Proceed manually.")
-
-# === UI Section ===
+# Title and subtitle
 st.markdown("# SimuATS")
 st.markdown("A simulated ATS resume scanner with AI evaluation and suggestions.")
 
@@ -24,32 +11,20 @@ st.write("")
 
 # Job description input
 st.write("Paste the job description below:")
-job_description = st.text_area("", value=default_text, height=300)
-
-# Auto-submit if testing
-auto_submit = TEST_MODE and job_description.strip()
+job_description = st.text_area("", height=300)
 
 # Submit button
-submit_clicked = st.button("Submit")
-
-# If either manual submit OR auto-submit
-if submit_clicked or auto_submit:
+if st.button("Submit"):
     if job_description.strip():
         st.success("Job description received.")
 
-        # Clean and split the pasted job description
-        chunks = clean_and_chunk_text(job_description)
-
-        st.write(f"Total Chunks Created: {len(chunks)}")
-
         # Extract hard skills
-        hard_skills = extract_skills_from_chunks(chunks)
+        extracted_skills = extract_skills_from_text(job_description)
 
-        st.markdown("### Extracted Hard Skills:")
-        if hard_skills:
-            st.write(hard_skills)
+        if extracted_skills:
+            st.subheader("Extracted Hard Skills:")
+            st.write(", ".join(extracted_skills))
         else:
-            st.write("No hard skills found.")
-
+            st.info("No hard skills matched.")
     else:
         st.warning("Enter a job description before submitting.")
