@@ -1,29 +1,50 @@
 import streamlit as st
-from modules.extract_skills import extract_skills_from_text
 
+# 🚨 This must come before anything else that uses Streamlit
 st.set_page_config(page_title="SimuATS", layout="wide")
 
-# Title and subtitle
+import time
+import torch
+from modules.extract_skills import extract_skills_from_text
+from modules.skill_ranker import rank_skills
+
 st.markdown("# SimuATS")
 st.markdown("A simulated ATS resume scanner with AI evaluation and suggestions.")
-
 st.write("")
 
-# Job description input
 st.write("Paste the job description below:")
-job_description = st.text_area("", height=300)
+job_description = st.text_area("", height=300, label_visibility="collapsed")
 
-# Submit button
 if st.button("Submit"):
     if job_description.strip():
+        total_start = time.time()
         st.success("Job description received.")
 
-        # Extract hard skills
         extracted_skills = extract_skills_from_text(job_description)
 
         if extracted_skills:
             st.subheader("Extracted Hard Skills:")
             st.write(", ".join(extracted_skills))
+
+            inference_start = time.time()
+            ranked = rank_skills(job_description, extracted_skills)
+            inference_duration = time.time() - inference_start
+
+            st.subheader("AI-Based Skill Importance:")
+            for skill, score in ranked.items():
+                st.write(f"**{skill}** — Importance Score: {score}")
+
+            total_duration = time.time() - total_start
+
+            st.markdown("---")
+            st.markdown("### Performance")
+            st.write(f"⏱️ Inference runtime: **{inference_duration:.2f} seconds**")
+            st.write(f"🕒 Total processing time: **{total_duration:.2f} seconds**")
+
+            if torch and torch.cuda.is_available():
+                st.write(f"✅ Running on GPU: **{torch.cuda.get_device_name(0)}**")
+            else:
+                st.write("⚠️ Running on CPU — GPU not available.")
         else:
             st.info("No hard skills matched.")
     else:
