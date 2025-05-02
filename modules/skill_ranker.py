@@ -20,17 +20,17 @@ def load_classifier():
 
 _classifier = load_classifier()
 
-# Optimized hypotheses
-CANDIDATE_LABELS = [
-    "This skill is essential and critical for the job.",
-    "This skill is important but not strictly required.",
-    "This skill is optional or nice-to-have."
+# Base candidate labels with placeholder
+CANDIDATE_LABELS_TEMPLATE = [
+    "Experience with {skill} is important for this job.",
+    "Experience with {skill} is recommended but not required.",
+    "Experience with {skill} is optional, nice to have, or a plus."
 ]
 
 LABEL_TO_SCORE = {
-    "This skill is essential and critical for the job.": 3,
-    "This skill is important but not strictly required.": 2,
-    "This skill is optional or nice-to-have.": 1
+    "important": 3,
+    "recommended": 2,
+    "nice to have": 1
 }
 
 def rank_skills(
@@ -49,22 +49,44 @@ def rank_skills(
         if not relevant_text:
             relevant_text = job_text  # fallback to full job description
 
-        # Run zero-shot classification comparing to all three hypotheses
+        # Premise with context
+        premise = f"This sentence is from a job description: {relevant_text}"
+
+        # Dynamically create hypotheses for this skill
+        candidate_labels = [
+            label.format(skill=skill) for label in CANDIDATE_LABELS_TEMPLATE
+        ]
+
+        # Run zero-shot classification
         result = _classifier(
-            relevant_text,
-            candidate_labels=CANDIDATE_LABELS,
+            premise,
+            candidate_labels=candidate_labels,
             multi_label=False
         )
 
         top_label = result['labels'][0]
-        score = LABEL_TO_SCORE.get(top_label, 1)
-        entailment_confidence = round(result['scores'][0], 3)
+        entailment_score = round(result['scores'][0], 3)
+
+        # Determine the score based on which label won
+        if "important" in top_label:
+            importance = 3
+        elif "recommended" in top_label:
+            importance = 2
+        else:
+            importance = 1
 
         ranked_skills[skill] = {
-            "score": score,
-            "top_label": top_label,
-            "entailment_confidence": entailment_confidence,
-            "relevant_text": relevant_text
+            "score": importance,
+            "entailment_confidence": entailment_score,
+            "relevant_text": relevant_text,
+            "premise": premise,
+            "hypothesis": top_label
         }
 
     return ranked_skills
+
+
+
+
+# Need to implement better parsing -- we need to know titles and make sure they aren't in our premise.
+# We also need to implement header detection and put them IN our premises.

@@ -38,7 +38,8 @@ if st.button("Submit"):
                 st.markdown(f"**{skill}**")
                 st.write(f"- Importance Score: {score}")
                 st.write(f"- Entailment Score: {entailment}")
-                st.write(f"- Relevant Text: \"{relevant_text}\"")
+                st.write(f"- Premise: \"{info['premise']}\"")
+                st.write(f"- Hypothesis: \"{info['hypothesis']}\"")
                 st.markdown("---")
 
             total_duration = time.time() - total_start
