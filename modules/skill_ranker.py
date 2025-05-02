@@ -22,15 +22,15 @@ _classifier = load_classifier()
 
 # Base candidate labels with placeholder
 CANDIDATE_LABELS_TEMPLATE = [
-    "Experience with {skill} is important for this job.",
-    "Experience with {skill} is recommended but not required.",
-    "Experience with {skill} is optional, nice to have, or a plus."
+    "Experience with {skill} is essential and required.",
+    "Experience with {skill} is preferred but not required.",
+    "Experience with {skill} is optional, but not required."
 ]
 
 LABEL_TO_SCORE = {
-    "important": 3,
-    "recommended": 2,
-    "nice to have": 1
+    "essential": 3,
+    "preferred": 2,
+    "optional": 1
 }
 
 def rank_skills(
@@ -68,9 +68,9 @@ def rank_skills(
         entailment_score = round(result['scores'][0], 3)
 
         # Determine the score based on which label won
-        if "important" in top_label:
+        if "essential" in top_label:
             importance = 3
-        elif "recommended" in top_label:
+        elif "preferred" in top_label:
             importance = 2
         else:
             importance = 1
@@ -90,3 +90,6 @@ def rank_skills(
 
 # Need to implement better parsing -- we need to know titles and make sure they aren't in our premise.
 # We also need to implement header detection and put them IN our premises.
+
+
+# For now, this doesn't work too too well. However, for the sake of handing in our project -- this will have to do for now.
