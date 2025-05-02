@@ -1,75 +1,80 @@
+Associate Software Engineer
+Zwift · United States (Remote)
+
+Apply
+
+Save
+Save Associate Software Engineer at Zwift
+Show more options
+How your profile and resume fit this job
+Get AI-powered advice on this job and more exclusive features with Premium. Reactivate Premium
+
+
+
+
+Tailor my resume to this job
+
+Am I a good fit for this job?
+
+How can I best position myself for this job?
+
+People you can reach out to
+Raphael profile photo
+Raphael profile photo
+Raphael Pungin 
+Raphael Pungin is verified 
+· 3rd
+Mobile Application Engineer specializing in iOS, Android and Flutter
+School alum from University of Rhode Island
+
+Message
+Meet the hiring team
+Onochie Akah is hiring
+Onochie Akah  
+ 3rd
+People Ops @ Zwift! | ScrumMaster | Ex. FOX, Microsoft (Activision Blizzard), Apple (MAL) 
+
+Message
 About the job
-Paperless Parts provides the manufacturing industry with a SaaS platform that empowers the next generation of manufacturers to join the digital age. When manufacturers use our product, they free up valuable time for faster quoting and estimating, leading to increased profitability and reduced manual steps. From life-saving medical devices to critical components that unlock new depths of outer space, our customers produce parts that go into some of the world’s coolest and most impactful products. It is our mission to enable manufacturers with the technology they need to drive innovation forward.
+About The Role And About You
 
-We are a team of motivated and hardworking creators and doers. If you’re looking to have a direct impact on a Series B fast-scaling company that is revolutionizing an essential industry, read on and apply!
+Zwift is looking for an Associate Software Engineer to join our team. In this role, you will work in a full-stack team to deliver features that improve the racing, competition, and training experience in our cross-platform MMORPG game. You will work cross-functionally with designers, producers, engineers, artists, QA, and product managers to build exciting new features and help grow our core gaming experience.
 
-Responsible for adherence to all security and privacy requirements, rules and regulations and implement as required.
+What You’ll Do
 
-This position requires activities that are subject to US Export Control Laws and require US Citizenship or Green Card Holder.
+Work on a cross-functional team to deliver exciting game features that span our microservice backend, game client, mobile companion app, and admin tooling.
+Design, build, and maintain high-performance, reusable, and reliable code in multiple programming languages and platforms.
+Identify technical risks and help build mitigation plans.
+Work with engineers and product managers to scope and plan projects.
+Participate in the interview process.
 
-About The Role
+What We’re Looking For
 
-Join our engineering team as a Software Engineer and embark on a career where your contributions will play a crucial role in developing solutions that power manufacturing shops. At Paperless Parts, you'll be a key part of developing a product essential to our customers' success. You’ll work with a modern tech stack, solve meaningful problems, and collaborate closely with cross-functional teams. This role is perfect for engineers passionate about technology, eager to learn, and excited to grow their careers in a high-performing, inclusive environment.
+BS/MS in Computer Science and/or relevant technical area.
+1-3 years of software development experience.
+We mostly use C++ and Java, but there is no specific language requirement.
+Experience in one of the following: mobile development, cloud-based microservices, event sourcing, gameplay, and/or multiplayer gameplay. 
+Experience with software engineering best practices such as automated testing, monitoring/alerting, continuous integration, code reviews, etc.
+Experience with production troubleshooting.
+Tenacity to get things done and enthusiasm for learning in an evolving problem space.
 
-Why You'll Love Working Here
+Bonus Points
 
-Customer-Centric Focus: We put our customers at the center of everything we do. Your work will directly contribute to their success.
-Meaningful Challenges: We enable critical industries like medical devices, aerospace, defense, requiring robust, secure, and scalable solutions.
-Collaborative and Inclusive Culture: We believe that diverse teams build better products. Our culture emphasizes collaboration, continuous learning, and mutual respect.
-Growth Opportunities: As a key team member, you'll have the chance to grow your skills, contribute to our success, and build a rewarding career.
-Modern Technology: We work with the latest tech stacks, including Python/Django, React, SQL, NoSQL databases, and AWS.
+Experience working with Kubernetes and containerization.
+Experience working on an MMO.
+Experience shipping cross-platform apps, especially: iOS, tvOS, Android, Mac, and PC.
+Interest in creating fun experiences around cycling, running, and overall fitness.
 
+If Zwift determines in any stage of our interviews that any AI tools are being used without disclosure or citation, your candidacy will be disqualified.
 
-What You'll Do
+For All US Based Full-Time Positions
 
-Build and Innovate: Design, implement, and maintain scalable, high-performance systems.
-Develop APIs: Develop robust, secure, and efficient APIs that enable seamless integration and data access.
-Tackle Complex Problems: Engage in solving technical challenges, learning to balance trade-offs to deliver secure and compliant solutions.
-Collaborate Across Teams: Work closely with designers, product managers, and other engineers to deliver products that exceed customer expectations.
+The base salary for this position ranges between $70,500 to $110,000. The base salary will be based on a number of factors including the role offered, the individual's job-related knowledge, skills, qualifications, and geographic location. In addition to base salary, Zwift is proud to offer a comprehensive and competitive benefits package for all eligible employees which also includes performance bonuses, equity, and a full range of medical, financial, and other perks and benefits.
 
+How To Stand Out Among The Rest
 
-What You'll Bring
+Your resume/CV is enough to show off your skills, accomplishments, and experience. However, if you choose to include a cover letter introducing us to your awesome personality, we will read that too.
 
-Bachelor’s Degree in Computer Science, Engineering, or a related field.
-2+ years of experience writing code in an object-oriented programming language.
-Experience with a modern web application stack, such as Python/Django, Node/Express, or Java/Spring.
-Experience using cloud providers such as AWS, Azure, or GCP.
-Experience building and deploying applications with Docker.
-Familiarity with continuous integration and delivery tools like Jenkins.
-Solid understanding of SQL and relational databases.
-Experience with API design, development, and documentation.
-Excellent communication skills, both verbally and in writing, with the ability to convey technical concepts to a broad audience.
+We strongly believe that different backgrounds and ideas are a competitive advantage; we hire candidates of any race, color, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, marital or family status, disability, Veteran status, and any other status. Zwift is proud to be an Equal Opportunity Employer. If you have a disability or special need that requires accommodation, please let us know by emailing careers@zwift.com.
 
-
-Why Join Us?
-
-Impactful Work: Your contributions will power industries critical to our society and economy, making a real difference in the world.
-Continuous Learning: We invest in our people and offer opportunities to learn, grow, and advance their careers.
-Supportive Culture: Our team is our greatest asset, and we foster an environment where everyone can thrive.
-
-
-If you’re a motivated engineer eager to grow your career while working with a talented, driven team, we’d love to hear from you!
-
-Paperless Parts Life
-
-Culture: At Paperless Parts, we value intentionality, persistence and relationships. We live and breathe these values every day. As a fast-growing company, we’re continually improving what we’ve built while still building from the ground up.
-
-Boston Office: Our office is full of energy; people regularly collaborate to solve complex problems. We recognize that people work well in different environments and have intentionally designed our office to provide collaborative spaces and quiet focus areas. Our height-adjustable desks are set up with additional monitors, and employees are provided with the latest Apple technology to support productivity.
-
-Our headquarters is located in downtown Boston, MA and easily accessible to most transit routes (Red/Blue/Orange/Green Line/South Station/North Station).
-
-Encinitas Office: Our California office is our newest office which seats our West Coast sales team. The office has an open floor plan with several conference rooms to encourage collaboration with your colleagues in California and TV's to connect with those sitting in Boston or remotely. The office is walking distance from Downtown Encinitas, the Coaster train stop, and tons of activities on the 101.
-
-Benefits: We value you and your family. With this in mind, full-time employees are provided:
-
-100% coverage of health, dental, and vision for you and your dependent 
-Competitive compensation philosophy 
-Unlimited PTO 
-13+ paid holidays 
-Company-sponsored wellness stipend/free gym membership 
-Pre-tax Commuter and FSA/Dependent Care FSA 
-401(k) plan 
-Employee recognition program
-
-
-Paperless Parts is committed to cultivating an equitable, inclusive, and supportive environment for all employees. We believe this environment creates a safe space for employees to share their experiences, brainstorm ideas, and grow their careers. Paperless Parts is an Equal Opportunity & Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.
+Zwift, Inc. is an Equal Opportunity Employer.

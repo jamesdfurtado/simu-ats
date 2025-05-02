@@ -71,6 +71,13 @@ def extract_skills_from_text(text):
     if "c" in extracted and "c++" in extracted:
         extracted.remove("c")
 
+    if "apis" in extracted and "api" in extracted:
+        extracted.remove("apis")
+
+    if "io" in extracted:
+        extracted.remove("io")
+        extracted.add("ios")
+
     return sorted(extracted)
 
 # This is before skill importance is ranked

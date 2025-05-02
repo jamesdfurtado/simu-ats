@@ -250,7 +250,6 @@ glue
 dataproc
 bigquery
 datastore
-rest
 firebase
 firebase firestore
 firebase realtime database
@@ -716,7 +715,6 @@ wordpress headless
 graphql
 apollo client
 urql
-rest api
 openapi
 swagger
 grpc
@@ -756,7 +754,6 @@ zod validation
 zustand
 redux
 redux toolkit
-context api
 recoil
 mobx
 vuex
@@ -803,7 +800,6 @@ faas
 serverless architectures
 bff pattern
 backend for frontend
-api gateway
 reverse proxy
 nginx
 apache http server
@@ -839,7 +835,6 @@ outbound webhooks
 microservices architecture
 rest microservices
 graphql federation
-api composition
 graphql stitching
 backend as a service
 baas
@@ -989,7 +984,6 @@ end to end testing
 e2e testing
 ui testing
 snapshot testing
-api testing
 performance testing
 load testing
 stress testing
@@ -1063,8 +1057,6 @@ sinon.js
 assert.js
 expect.js
 supertest
-rest assured
-restful
 karate dsl
 pact contract testing
 mutation testing
@@ -1141,7 +1133,6 @@ class diagrams
 activity diagrams
 erd diagrams
 database schema design
-api design
 openapi specs
 swagger documentation
 mock servers
@@ -1184,7 +1175,6 @@ monolith architecture
 modular monolith
 cloud native architecture
 twelve factor app
-api gateway pattern
 backend for frontend pattern
 anti corruption layer
 distributed systems
@@ -1192,7 +1182,6 @@ distributed transactions
 eventual consistency
 strong consistency
 idempotency
-api versioning
 service versioning
 continuous refactoring
 technical debt management
@@ -1354,7 +1343,6 @@ autoscaling
 high availability
 load balancing
 reverse proxies
-api gateways
 authentication protocols
 authorization protocols
 oauth2
@@ -1363,8 +1351,6 @@ saml authentication
 sso single sign on
 enterprise integration
 integration patterns
-api rate limiting
-api throttling
 service mesh
 envoy proxy
 istio service mesh

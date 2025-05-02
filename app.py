@@ -1,6 +1,4 @@
 import streamlit as st
-
-# 🚨 This must come before anything else that uses Streamlit
 st.set_page_config(page_title="SimuATS", layout="wide")
 
 import time
@@ -31,12 +29,20 @@ if st.button("Submit"):
             inference_duration = time.time() - inference_start
 
             st.subheader("AI-Based Skill Importance:")
-            for skill, score in ranked.items():
-                st.write(f"**{skill}** — Importance Score: {score}")
+
+            for skill, info in ranked.items():
+                score = info['score']
+                entailment = info['entailment_confidence']
+                relevant_text = info['relevant_text'] or "(No matching sentence found)"
+
+                st.markdown(f"**{skill}**")
+                st.write(f"- Importance Score: {score}")
+                st.write(f"- Entailment Score: {entailment}")
+                st.write(f"- Relevant Text: \"{relevant_text}\"")
+                st.markdown("---")
 
             total_duration = time.time() - total_start
 
-            st.markdown("---")
             st.markdown("### Performance")
             st.write(f"⏱️ Inference runtime: **{inference_duration:.2f} seconds**")
             st.write(f"🕒 Total processing time: **{total_duration:.2f} seconds**")
