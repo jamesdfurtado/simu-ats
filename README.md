@@ -6,24 +6,31 @@ It also can provide the user with a suggested revision of their resume.
 
 ## Setup Instructions
 
-1. Open up terminal and clone the repository
+1. Open up your terminal and clone the repository
+
 ```git clone https://github.com/jamesdfurtado/simu-ats.git```
 
 2. Create a virtual environment:
+
 ```python -m venv env```
 
 3. Activate the environment:
+
 ```env\Scripts\activate```
 
 4. Install required packages:
+
 ```pip install -r requirements.txt```
 
 5. Install PyTorch manually:
+
 ```pip install torch --index-url https://download.pytorch.org/whl/cu121```
 *Note: We need to manually do this because requirements.txt cannot specify the index URL per package.*
 
 6. Create a `.env` file:
-```New-Item -Path ".env" -ItemType "file"```
+
+for powershell (VScode uses this), ```New-Item -Path ".env" -ItemType "file"``` 
+for most other terminals, ```touch .env``` 
 
 7. Inside `.env`, add:
 ```OPENAI_API_KEY="your-openai-key-here"```
