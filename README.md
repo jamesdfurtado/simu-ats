@@ -22,14 +22,17 @@ It also can provide the user with a suggested revision of their resume.
 
 ```env\Scripts\activate```
 
-5. Install required packages:
+5. Install PyTorch manually:
+
+*IMPORTANT: This must be done before installed requirements.txt, or else app will not work.*
+
+```pip install torch --index-url https://download.pytorch.org/whl/cu121```
+
+
+6. Install required packages:
 
 ```pip install -r requirements.txt```
 
-6. Install PyTorch manually:
-
-```pip install torch --index-url https://download.pytorch.org/whl/cu121```
-*Note: We need to manually do this because requirements.txt cannot specify the index URL per package.*
 
 7. Create a `.env` file:
 
