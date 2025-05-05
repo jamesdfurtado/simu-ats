@@ -1,7 +1,7 @@
 streamlit
 nltk
 transformers
-openai
+openai==0.28
 dotenv
 docx2text
 pdfplumber
