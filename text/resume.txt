@@ -1,0 +1,49 @@
+James Furtado 
+Stonington, CT 06379 | (860) 373-3226 | jamesdfurtado@gmail.com 
+linkedin.com/in/james-furtado | github.com/jamesdfurtado 
+PROFESSIONAL EXPERIENCE 
+Private Vertical SaaS Company – Providence, RI                             
+Feb 2025 – Present 
+Full-Stack Software Engineer (Part-Time) 
+ Designing and implementing full-stack features using React, Next.js, and Node for SaaS platform. 
+ Leveraging MongoDB to develop scalable and industry-standard data architecture and API endpoints. 
+ Utilizing AWS and Heroku to engineer and maintain cloud infrastructure and CI/CD pipelines. 
+Zebra Technologies – Lincoln, RI                    
+Sept 2024 – April 2025 
+Machine Learning Engineer (Capstone Project) 
+ Automated thermal printer calibration using Python and a YOLOv5 (PyTorch) Computer Vision model. 
+ Reduced printer setup time by 80% and eliminated technician site visits by enabling user-led recalibration. 
+ Achieved 95%+ defect detection accuracy through extensive testing across multiple printer models. 
+Hayward Industries – North Kingstown, RI          
+May 2024 – Sept 2024 
+Test Engineering Intern (Internship) 
+ Avoided $200,000 in losses by fixing a recurring bug in 10% of PCB boards, preventing future defects. 
+ Cut 8+ hours of weekly production downtime with an Arduino project, implemented company-wide. 
+ Deployed a new UI feature with Object Pascal, enhancing test device usability for manufacturing workers. 
+PROJECTS 
+Full Stack Weather App               
+Nov 2024 – Jan 2025 
+ Built a React weather app with a Java backend, saving user preferences via MySQL. 
+ Developed REST APIs with Spring Boot to connect the frontend to backend and query the database. 
+“Community Library” – Book Database / Suggester                   
+Dec 2023 
+ Developed a C++ virtual library with 1,000+ titles, using a custom binary search tree variant for efficiency. 
+ Implemented O(log n) search & book suggestion functions by parsing book parameters into classes. 
+LEADERSHIP EXPERIENCE 
+Merchandise Chair, Theta Delta Chi, Kingston, RI                               
+Summer Camp Counselor, Stonington Human Services, Pawcatuck, CT                                
+Senior Citizen Tech Support, Stonington Human Services, Pawcatuck, CT   
+EDUCATION 
+Sept 2024 – Present 
+May 2019 – Aug 2022 
+Sept 2018 – March 2020 
+University of Rhode Island – Kingston, RI                       
+Bachelor of Science (B.S.) in Computer Engineering, Minor in Mathematics        
+GPA 3.66 / 4.00, Dean’s List, Presidential Scholarship 
+TECHNICAL SKILLS 
+Sept 2021 – Present 
+(Expected May 2025) 
+Languages: C++, Python, Java, JavaScript, SQL 
+DevOps: AWS, Heroku, Git, GitHub 
+Web: React, Next.js, Node.js, Spring Boot 
+Databases: MongoDB, MySQL 
