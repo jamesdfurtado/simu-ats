@@ -1,4 +1,12 @@
 streamlit
-torch thingy (the specific version, look on desktop)
 nltk
 transformers
+openai
+dotenv
+docx2text
+pdfplumber
+python-docx
+PyPDF2
+
+# pip install torch --index-url https://download.pytorch.org/whl/cu121
+# We need to manually do this, because requirements.txt cannot do it for us.

@@ -1,3 +1,4 @@
 env/
 .env
 heuristic_resume.py
+temp_requirements.txt

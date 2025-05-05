@@ -797,7 +797,6 @@ edge functions
 edge computing
 function as a service
 faas
-serverless architectures
 bff pattern
 backend for frontend
 reverse proxy
@@ -832,8 +831,6 @@ webhooks
 zapier integrations
 inbound webhooks
 outbound webhooks
-microservices architecture
-rest microservices
 graphql federation
 graphql stitching
 backend as a service
@@ -1169,7 +1166,6 @@ hexagonal architecture
 ports and adapters architecture
 layered architecture
 clean architecture
-microservices architecture
 serverless architecture
 monolith architecture
 modular monolith
