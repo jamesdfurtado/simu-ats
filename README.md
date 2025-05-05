@@ -22,27 +22,21 @@ It also can provide the user with a suggested revision of their resume.
 
 ```env\Scripts\activate```
 
-5. Install PyTorch manually:
 
-*IMPORTANT: This must be done before installed requirements.txt, or else app will not work.*
-
-```pip install torch --index-url https://download.pytorch.org/whl/cu121```
-
-
-6. Install required packages:
+5. Install required packages:
 
 ```pip install -r requirements.txt```
 
 
-7. Create a `.env` file:
+6. Create a `.env` file:
 
 for powershell (VScode uses this), ```New-Item -Path ".env" -ItemType "file"``` 
 
 for most other terminals, ```touch .env``` 
 
-8. Inside `.env`, add:
+7. Inside `.env`, add:
 ```OPENAI_API_KEY="your-openai-key-here"```
 Replace your-openai-api-key-here with your own OpenAI API key.
 
-9. Run the app:
+8. Run the app:
 ```streamlit run app.py```
