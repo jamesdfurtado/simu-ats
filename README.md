@@ -1,4 +1,9 @@
 # simu-ats
+
+This is a work in progress!
+- The app is in an MVP state at the moment. Many things need to be overhauled and functionalities need to be expanded upon
+- The end goal is to create the SimuATS fully locally and free, without leveraging paid tools like OpenAI API.
+
 SimuATS is an app that allows users to generate what a certain job's ATS acts like.
 The user uploads a job description, where it will then extract hard skills, and assign each one with an importance level of 1-3.
 The user can then upload their resume, and the "ATS" will provide a rating of 0-100 to see how highly they score.
