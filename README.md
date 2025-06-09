@@ -9,6 +9,8 @@ The user uploads a job description, where it will then extract hard skills, and 
 The user can then upload their resume, and the "ATS" will provide a rating of 0-100 to see how highly they score.
 It also can provide the user with a suggested revision of their resume.
 
+Currently, the app is largely powered by OpenAI API, however I plan to entirely overhaul this system to have a local model do the heavy lifting. I am doing this to minimize costs and create my OWN tool-- not a GPT wrapper. :)
+
 ## Setup Instructions
 
 1. Open up your terminal and clone the repository
